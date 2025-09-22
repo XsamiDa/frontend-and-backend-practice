@@ -153,8 +153,9 @@ body {
 
 .experience-card {
     background: #ffffff;
+    width: 250px;
     padding: 30px;
-    margin: 25px 0;
+    margin: 25px auto;
     border-radius: 15px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.1);
     border-left: 5px solid #ff7eb3;
