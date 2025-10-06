@@ -8,7 +8,9 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="header">УЛЬТРА СУПЕР ДИКИЙ КРУТОЙ САЙТ</div>
+        <header class="header">
+            <h1>УЛЬТРА СУПЕР ДИКИЙ КРУТОЙ САЙТ</h1>
+        </header>
 
         <nav class="nav">
             <ul class="nav-list">
@@ -20,44 +22,50 @@
             </ul>
         </nav>
 
-        <div class="content">
-            <div class="profile-header">
+        <main class="content">
+            <article class="profile-header">
                 <h2 class="profile-title">Информация об авторе</h2>
                 <img src="images/автор.jpg" alt="Фото автора" class="profile-photo">
                 <p class="profile-name">Меликян Арменак Варданович</p>
                 <p class="profile-group">ЭФБО-11-24</p>
-            </div>
+            </article>
 
-            <div class="about-me">
-                Обо мне: Я крутой репер Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Voluptatum delectus magnam itaque, sunt ducimus iure molestias, maxime quod sequi vel optio ipsam.
-            </div>
+            <section class="about-me">
+                <h3>Обо мне</h3>
+                <p>Я крутой репер Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatum delectus magnam itaque, sunt ducimus iure molestias, maxime quod sequi vel optio ipsam.</p>
+            </section>
 
-            <div class="skills-container">
-                <div class="skill-tag">Навык 1 — монтаж</div>
-                <div class="skill-tag">Навык 2 — харизма</div>
-                <div class="skill-tag">Навык 3 — Армянин</div>
-                <div class="skill-tag">Навык 4 — Бабушка</div>
-            </div>
+            <section class="skills-container">
+                <h3>Мои навыки</h3>
+                <div class="skills-grid">
+                    <div class="skill-tag">Навык 1 — монтаж</div>
+                    <div class="skill-tag">Навык 2 — харизма</div>
+                    <div class="skill-tag">Навык 3 — Армянин</div>
+                    <div class="skill-tag">Навык 4 — Бабушка</div>
+                </div>
+            </section>
 
-            <div class="experience-section">
+            <section class="experience-section">
                 <h3 class="section-title">Мой опыт работы</h3>
-                <div class="experience-card">
-                    <p class="experience-title">Опыт 1</p>
-                    <p class="experience-desc">Работал монтажером. Меня кидали или платили мало.</p>
+                <div class="experience-grid">
+                    <article class="experience-card">
+                        <h4 class="experience-title">Опыт 1</h4>
+                        <p class="experience-desc">Работал монтажером. Меня кидали или платили мало.</p>
+                    </article>
+                    <article class="experience-card">
+                        <h4 class="experience-title">Опыт 2</h4>
+                        <p class="experience-desc">Отмывал бабки через ИП мамы. Посадили на 30 лет… маму.</p>
+                    </article>
+                    <article class="experience-card">
+                        <h4 class="experience-title">Опыт 3</h4>
+                        <p class="experience-desc">Играл в игрушки. Сломал монитор.</p>
+                    </article>
                 </div>
-                <div class="experience-card">
-                    <p class="experience-title">Опыт 2</p>
-                    <p class="experience-desc">Отмывал бабки через ИП мамы. Посадили на 30 лет… маму.</p>
-                </div>
-                <div class="experience-card">
-                    <p class="experience-title">Опыт 3</p>
-                    <p class="experience-desc">Играл в игрушки. Сломал монитор.</p>
-                </div>
-            </div>
-        </div>
+            </section>
+        </main>
 
-        <div class="footer">
+        <footer class="footer">
             <p>📞 Телефон: +7 (999) 123-45-67</p>
             <p>✉️ Email: example@mail.ru</p>
             <p>📍 Адрес: г. Москва, ул. Примерная, д. 1</p>
@@ -70,7 +78,7 @@
                     style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">Instagram</a>
             </p>
             <p style="margin-top: 15px; font-size: 13px; color: #ddd;">© 2025 Мой сайт. Все права защищены.</p>
-        </div>
+        </footer>
     </div>
 </body>
 </html>
